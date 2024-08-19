@@ -4,10 +4,11 @@
   "description": "A project using Parcel",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://MatacheAlexandru.github.io/Celindra",
   "keywords": [],
   "author": "",
   "license": "ISC",
