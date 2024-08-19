@@ -4,7 +4,7 @@
   "description": "A project using Parcel",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./",
+    "build": "parcel build src/index.html --public-url /Celindra/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
