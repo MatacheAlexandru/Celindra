@@ -1,0 +1,18 @@
+{
+  "name": "celindra",
+  "version": "1.0.0",
+  "description": "A project using Parcel",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "gh-pages": "^3.2.3"
+  }
+}
