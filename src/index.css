@@ -105,15 +105,13 @@ p {
 }
 
 /* Hero Section */
-#hero {
-}
 
 .hero-position {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1004px; /*Provizoriu*/
+  margin: 5rem 0 0 0;
 }
 
 .seminar-info {
@@ -202,7 +200,7 @@ p {
   margin-top: 1.5rem;
 }
 
-.btn-primary {
+.btn-primary-trading {
   display: inline-block;
   padding: 0.85rem 1.5rem;
   font-size: 1rem;
@@ -233,7 +231,7 @@ p {
 }
 
 .hero-image {
-  margin-top: 2rem;
+  margin-top: 5rem;
   width: 76rem;
   height: auto;
 }
@@ -275,16 +273,13 @@ p {
   text-align: left;
 }
 
-.image-content {
-}
-
 /* Course Content Section */
 .course-content-position {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem;
-  margin-top: 2rem;
+  margin: 5rem 0;
 }
 
 .course-content-position h2 {
@@ -332,6 +327,7 @@ p {
 .reservation-position {
   padding-bottom: 7rem;
   padding-left: 6rem;
+  padding-top: 5rem;
   background-color: #f9fafb;
 }
 .title-reservation {
@@ -587,6 +583,7 @@ p {
 .footer-nav a {
   color: #007bff;
   font-size: 1rem;
+  font-weight: 700;
   text-decoration: none;
 }
 
