@@ -8,27 +8,31 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <!-- Header -->
     <header id="header">
-      <div id="logo">
-        <img src="#" alt="Celindra Logo" />
-      </div>
-      <nav id="navbar">
-        <ul>
-          <li><a href="#">Acasă</a></li>
-          <li><a href="#">Curs Live</a></li>
-          <li><a href="#">Grup Opțiuni</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div id="account-cart">
-        <a href="#" id="account">Cont</a>
-        <a href="#" id="cart">
-          <svg src="#"></svg>
-        </a>
+      <div class="container">
+        <div class="navbar-position">
+          <div id="logo">
+            <a href="#" alt="Celindra Logo">celindra</a>
+          </div>
+          <nav id="navbar">
+            <ul>
+              <li><a href="#">Acasă</a></li>
+              <li><a href="#">Curs Live</a></li>
+              <li><a href="#">Grup Opțiuni</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div id="account-cart">
+            <a href="#" id="account">Cont</a>
+            <a href="#" id="cart">
+              <img src="svg/shopping-cart-01.svg" alt="Shopping Cart Icon" />
+            </a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -36,49 +40,73 @@
     <section id="hero">
       <div class="container">
         <!-- Weekend Seminar Section -->
-        <div class="seminar-info">
-          <a href="#" class="seminar-link">
-            <svg src="#"></svg> Weekend Seminar
-          </a>
-          <span>by <a href="#">Cristian Sima</a></span>
-        </div>
+        <div class="hero-position">
+          <div class="seminar-info">
+            <a href="#" class="seminar-link">
+              <img src="svg/Icon.svg" /> Weekend Seminar
+            </a>
+            <span><a href="#">by Cristian Sima</a></span>
+          </div>
 
-        <!-- Main Hero Content -->
-        <h1>Trading & Macroeconomie</h1>
-        <p>
-          O experiență amplă de învățare și networking pentru o comunitate de
-          oameni valoroși cu minți curioase și ambițioase, într-un cadru natural
-          deosebit.
-        </p>
-        <p>
-          <svg src="#"></svg> 13 – 15 Septembrie 2024
-          <svg src="#"></svg> Sâmbăta de Sus, Brașov
-        </p>
-        <div class="cta-buttons">
-          <a href="#" class="btn-primary">Conținut curs</a>
-          <a href="#" class="btn-secondary">Rezervă-ți locul</a>
+          <!-- Main Hero Content -->
+          <div class="trading-title">
+            <h1>Trading & Macroeconomie</h1>
+            <p>
+              O experiență amplă de învățare și networking pentru o comunitate
+              de oameni valoroși cu minți curioase și ambițioase, într-un cadru
+              natural deosebit.
+            </p>
+          </div>
+
+          <div class="date-location">
+            <p>
+              <img src="svg/Featured icon.svg" alt="Calendar Icon" />
+              <span>13 – 15 Septembrie 2024</span>
+            </p>
+            <p>
+              <img src="svg/marker-pin-03.svg" alt="Location Icon" />
+              <span>Sâmbăta de Sus, Brașov</span>
+            </p>
+          </div>
+
+          <div class="cta-buttons">
+            <a href="#" class="btn-primary">Conținut curs</a>
+            <a href="#" class="btn-secondary">Rezervă-ți locul</a>
+          </div>
+          <img
+            src="image/Content.png"
+            alt="Feed your greed banner"
+            class="hero-image"
+          />
         </div>
-        <img src="#" alt="Feed your greed banner" class="hero-image" />
       </div>
     </section>
 
     <!-- Cristian Sima Section -->
     <section id="cristian-sima">
       <div class="container">
-        <div class="text-content">
-          <h2>
-            Sunteți pasionați de Bursă sau pur și simplu doriți să înțelegeți
-            cum funcționează piețele financiare?
-          </h2>
-          <p>
-            Vă invităm la un eveniment exclusiv organizat de comunitatea Feed
-            Your Grid, la Sâmbăta de Sus, Brașov. Evenimentul este conceput
-            pentru a oferi cursuri de trading și macroeconomie sub îndrumarea
-            lui Cristian Sima.
-          </p>
-        </div>
-        <div class="image-content">
-          <img src="#" alt="Cristian Sima" />
+        <div class="cristian-position">
+          <div class="text-content">
+            <h2>
+              Sunteți pasionați de Bursă sau pur și simplu doriți să înțelegeți
+              cum funcționează piețele financiare?
+            </h2>
+            <p>
+              Vă invităm la un eveniment exclusiv organizat de comunitatea
+              <strong>Feed Your Grid</strong>, la Sâmbăta de Sus, Brașov.
+            </p>
+
+            <p>
+              Evenimentul este conceput pentru a oferi cursuri de trading și
+              macroeconomie sub îndrumarea lui <strong>Cristian Sima</strong>,
+              dar și pentru a construi o comunitate de oameni valoroși care își
+              împărtășesc experiențele și cunoștințele într-un cadru natural
+              deosebit.
+            </p>
+          </div>
+          <div class="image-content">
+            <img src="image/Image.png" alt="Cristian Sima" />
+          </div>
         </div>
       </div>
     </section>
@@ -86,61 +114,45 @@
     <!-- Course Content Section -->
     <section id="course-content">
       <div class="container">
-        <h2>Conținut curs</h2>
+<div class="course-content-position">
+  <div class="course-intro">
+    <h2>Conținut curs</h2>
+    <p>
+      Acest eveniment depășește limitele unui simplu curs, oferind o experiență amplă de învățare și networking. Participanții vor fi cazați în pensiuni selectate din zonă, creând astfel un mediu ce amintește de Davos, unde ideile și perspectivele diverse se întâlnesc într-un spațiu colaborativ și inspirațional.
+    </p>
+  </div>
 
-        <div class="course-intro">
-          <p>
-            Acest eveniment depășește limitele unui simplu curs, oferind o
-            experiență amplă de învățare și networking. Participanții vor fi
-            cazați în pensiuni selectate din zonă, creând astfel un mediu ce
-            amintește de Davos, unde ideile și perspectivele diverse se
-            întâlnesc într-un spațiu colaborativ și inspirațional.
-          </p>
-        </div>
+  <ul class="course-benefits">
+    <li>Posibilitatea de a-l cunoaște personal pe Cristian Sima și de a discuta direct cu el.</li>
+    <li>Ocazia de a cumpăra cărțile lui Cristian Sima cu autograf.</li>
+    <li>Oportunitatea de a învăța noțiuni esențiale de macroeconomie și de a te iniția în trading.</li>
+    <li>Șansa de a învăța din greșelile altora și de a te conecta cu oameni de calitate.</li>
+    <li>Explicarea indicatorilor macroeconomici pe înțelesul tuturor.</li>
+    <li>Explicarea limbajului din tranzacțiile bursiere.</li>
+    <li>Cum să faci analiza fundamentală/financiară a unei companii.</li>
+    <li>Psihologia trader-ului.</li>
+    <li>Luarea deciziei de a face un trade pe baza analizei top to down.</li>
+    <li>Cum să faci o strategie de investiții eficientă, adaptată profilului tău de risc.</li>
+    <li>Cum gestionăm pierderile.</li>
+    <li>Interpretarea știrilor pentru a intui trendul.</li>
+    <li>Dezvoltarea abilităților de tranzacționare precum și strategii de investiții pe Opțiuni.</li>
+  </ul>
 
-        <!-- Benefits List -->
-        <ul class="course-benefits">
-          <li>
-            Posibilitatea de a-l cunoaște personal pe Cristian Sima și de a
-            discuta direct cu el.
-          </li>
-          <li>Ocazia de a cumpăra cărțile lui Cristian Sima cu autograf.</li>
-          <li>
-            Oportunitatea de a învăța noțiuni esențiale de macroeconomie și de a
-            te iniția în trading.
-          </li>
-          <li>
-            Șansa de a învăța din greșelile altora și de a te conecta cu oameni
-            de calitate.
-          </li>
-          <li>Explicarea indicatorilor macroeconomici pe înțelesul tuturor.</li>
-          <li>Explicarea limbajului din tranzacțiile bursiere.</li>
-          <li>Cum să faci analiza fundamentală/financiară a unei companii.</li>
-          <li>Psihologia trader-ului.</li>
-          <li>
-            Luarea deciziei de a face un trade pe baza analizei top to down.
-          </li>
-          <li>
-            Cum să faci o strategie de investiții eficientă, adaptată profilului
-            tău de risc.
-          </li>
-          <li>Cum gestionăm pierderile.</li>
-          <li>Interpretarea știrilor pentru a intui trendul.</li>
-          <li>
-            Dezvoltarea abilităților de tranzacționare precum și strategii de
-            investiții pe Opțiuni.
-          </li>
-        </ul>
+
 
         <!-- Course Participants Image -->
-        <img src="#" alt="Course Participants" class="participants-image" />
+      </div>
+      <div class="Course-Participants-Image">
+                <img src="image/Features section.png" alt="Course Participants" class="participants-image" />
+
       </div>
     </section>
 
     <!-- Reservation Section -->
     <section id="reservation">
       <div class="container">
-        <h2>Rezervă-ți locul</h2>
+        <div class="reservation-position">
+            <h2>Rezervă-ți locul</h2>
 
         <!-- Cancellation information with additional text after the link -->
         <p>
@@ -187,6 +199,8 @@
             </ul>
             <a href="#" class="btn-primary">Rezervă loc</a>
           </div>
+        </div>
+        
         </div>
 
         <!-- Romanian Cards (Second Row) -->
